@@ -23,8 +23,8 @@ public class RDFData {
 	public void generateFOAFFile() throws FileNotFoundException {
 
 		Resource myResource = ResourceFactory.createResource(MY_NAMESPACE + localName);
-		Resource myFriendResource1 = ResourceFactory.createResource(MY_NAMESPACE + "Batman");
-		Resource myFriendResource2 = ResourceFactory.createResource(MY_NAMESPACE + "Superman");
+		Resource myFriendResource1 = ResourceFactory.createResource(MY_NAMESPACE + "Ola_Nordmann");
+		Resource myFriendResource2 = ResourceFactory.createResource(MY_NAMESPACE + "Per_Spelleman");
 		Resource homePageResource = ResourceFactory.createResource("http://www.computas.com");
 
 		Literal myName = ResourceFactory.createPlainLiteral("Magnus Stuhr");
@@ -41,7 +41,7 @@ public class RDFData {
 		model.add(foafKnows);
 		model.add(foafKnows2);
 		
-		model.write(new FileOutputStream(new File("data/"+localName+".ttl")), "Turtle");
+		model.write(new FileOutputStream(new File("rdf_data/"+localName+".ttl")), "Turtle");
 	}
 	
 	public Model getFoafModel() {
