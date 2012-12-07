@@ -1,0 +1,8 @@
+<http://localhost:8080/semwebworkshop/person/Magnus_Stuhr>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://xmlns.com/foaf/0.1/homepage>
+              <http://www.computas.com> ;
+      <http://xmlns.com/foaf/0.1/knows>
+              <http://localhost:8080/semwebworkshop/person/Ola_Nordmann> , <http://localhost:8080/semwebworkshop/person/Per_Spelleman> ;
+      <http://xmlns.com/foaf/0.1/name>
+              "Magnus Stuhr" .
