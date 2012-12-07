@@ -17,11 +17,12 @@ import com.hp.hpl.jena.vocabulary.RDF;
 public class RDFData {
 
 	public Model model = ModelFactory.createDefaultModel();
-	private String MY_NAMESPACE = "http://myNameSpace.org/";
+	public static String MY_NAMESPACE = "http://localhost:8080/semwebworkshop/person/";
+	public String localName = "Magnus_Stuhr";
 
 	public void generateFOAFFile() throws FileNotFoundException {
 
-		Resource myResource = ResourceFactory.createResource(MY_NAMESPACE + "Magnus_Stuhr");
+		Resource myResource = ResourceFactory.createResource(MY_NAMESPACE + localName);
 		Resource myFriendResource1 = ResourceFactory.createResource(MY_NAMESPACE + "Ola_Nordmann");
 		Resource myFriendResource2 = ResourceFactory.createResource(MY_NAMESPACE + "Per_Spelleman");
 		Resource homePageResource = ResourceFactory.createResource("http://www.computas.com");
@@ -40,7 +41,7 @@ public class RDFData {
 		model.add(foafKnows);
 		model.add(foafKnows2);
 		
-		model.write(new FileOutputStream(new File("Magnus_Stuhr.ttl")), "Turtle");
+		model.write(new FileOutputStream(new File("data/"+localName+".ttl")), "Turtle");
 	}
 	
 	public Model getFoafModel() {

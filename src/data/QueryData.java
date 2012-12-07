@@ -5,7 +5,7 @@ public class QueryData {
 
 	public static String prefixes = "" +
 			"prefix foaf: <http://xmlns.com/foaf/0.1/> " +
-			"prefix : <http://myNameSpace.org/>";
+			"prefix : <"+RDFData.MY_NAMESPACE+">";
 
 	public static String queryName = "SELECT ?name WHERE { :Magnus_Stuhr foaf:name ?name }";
 	public static String queryHomepage = "SELECT ?name WHERE { :Magnus_Stuhr foaf:homepage ?homepage }";
