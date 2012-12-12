@@ -1,8 +1,12 @@
 <http://localhost:8080/semwebworkshop/person/Magnus_Stuhr>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://dbpedia.org/ontology/birthPlace>
+              <http://dbpedia.org/resource/Bergen> ;
       <http://xmlns.com/foaf/0.1/homepage>
               <http://www.computas.com> ;
       <http://xmlns.com/foaf/0.1/knows>
               <http://localhost:8080/semwebworkshop/person/Superman> , <http://localhost:8080/semwebworkshop/person/Batman> ;
+      <http://xmlns.com/foaf/0.1/mbox>
+              "Magnus.Stuhr@computas.com" ;
       <http://xmlns.com/foaf/0.1/name>
               "Magnus Stuhr" .
