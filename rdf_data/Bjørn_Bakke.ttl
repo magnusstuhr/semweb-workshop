@@ -1,0 +1,12 @@
+<http://localhost:8080/semwebworkshop/person/Bjørn_Bakke>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://dbpedia.org/ontology/birthplace>
+              <http://dbpedia.org/resource/Oslo> ;
+      <http://xmlns.com/foaf/0.1/homepage>
+              <http://www.computas.com> ;
+      <http://xmlns.com/foaf/0.1/knows>
+              <http://localhost:8080/semwebworkshop/person/Monika_Sperstad_Køller> , <http://localhost:8080/semwebworkshop/person/Stig_Bjarne_Dørmænen> ;
+      <http://xmlns.com/foaf/0.1/mbox>
+              "bjorn.bakke@computas.com" ;
+      <http://xmlns.com/foaf/0.1/name>
+              "Bjørn Bakke" .

@@ -1,0 +1,12 @@
+<http://localhost:8080/semwebworkshop/person/Hilde_Skagestad>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://dbpedia.org/ontology/birthPlace>
+              <http://dbpedia.org/resource/Kristiansand> ;
+      <http://xmlns.com/foaf/0.1/homepage>
+              <http://www.computas.com> ;
+      <http://xmlns.com/foaf/0.1/knows>
+              <http://localhost:8080/semwebworkshop/person/Aksel_Qviller> , <http://localhost:8080/semwebworkshop/person/Heidi_Camilla_Mork> ;
+      <http://xmlns.com/foaf/0.1/mbox>
+              "hsk@computas.com" ;
+      <http://xmlns.com/foaf/0.1/name>
+              "Hilde Skagestad" .
