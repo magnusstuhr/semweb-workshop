@@ -5,8 +5,8 @@
       <http://xmlns.com/foaf/0.1/homepage>
               <http://www.computas.com> ;
       <http://xmlns.com/foaf/0.1/knows>
-              <http://localhost:8080/semwebworkshop/person/Superman> , <http://localhost:8080/semwebworkshop/person/Batman> ;
+              <http://localhost:8080/semwebworkshop/person/Michael_Gfeller> , <http://localhost:8080/semwebworkshop/person/Soraya_Jimenez> ;
       <http://xmlns.com/foaf/0.1/mbox>
-              "Magnus.Stuhr@computas.com" ;
+              "magnus.stuhr@computas.com" ;
       <http://xmlns.com/foaf/0.1/name>
               "Magnus Stuhr" .
