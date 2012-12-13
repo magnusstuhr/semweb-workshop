@@ -1,0 +1,12 @@
+<http://localhost:8080/semwebworkshop/person/Michael_Gfeller>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://dbpedia.org/ontology/birthPlace>
+              <http://dbpedia.org/resource/Mühlethurnen> ;
+      <http://xmlns.com/foaf/0.1/homepage>
+              <http://www.mgfeller.net> ;
+      <http://xmlns.com/foaf/0.1/knows>
+              <http://localhost:8080/semwebworkshop/person/Magnus_Stuhr> , <http://localhost:8080/semwebworkshop/person/Dominic_Akadimah> ;
+      <http://xmlns.com/foaf/0.1/mbox>
+              "mgfeller@mgfeller.net" ;
+      <http://xmlns.com/foaf/0.1/name>
+              "Michael Gfeller" .
