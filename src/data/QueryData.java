@@ -1,6 +1,5 @@
 package data;
 
-
 public class QueryData {
 
 	public static String prefixes = "" +
@@ -12,7 +11,7 @@ public class QueryData {
 	public static String queryNameAndHomepage = "SELECT ?name ?homepage WHERE { :Magnus_Stuhr foaf:name ?name; foaf:homepage ?homepage.}";
 	public static String queryFriend = "SELECT ?myFriend WHERE { :Magnus_Stuhr foaf:knows ?myFriend }";
 	
-	private static String describeMyResourceQuery = "DESCRIBE :Magnus_Stuhr";
+	public static String describeMyResourceQuery = "DESCRIBE :Magnus_Stuhr";
 	
 	public static String currentQuery = queryFriend;
 	
